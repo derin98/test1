@@ -11,6 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(cors());
 
+
 app.listen(serverConfig.PORT, () => {
   console.log(`Application started on the port num : ${serverConfig.PORT}`);
 });
